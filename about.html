@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Hello, World!</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; padding: 2rem; color: #f8f7ff; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: radial-gradient(circle at 15% 20%, #ff7a9e 0, transparent 26rem), linear-gradient(135deg, #171330, #332567 52%, #101b46); }
+    main { width: min(92vw, 720px); padding: clamp(2rem, 7vw, 4.5rem); text-align: center; background: rgba(24, 22, 55, .6); border: 1px solid rgba(255,255,255,.18); border-radius: 30px; box-shadow: 0 25px 80px rgba(0,0,0,.35); backdrop-filter: blur(18px); }
+    nav { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2.5rem; } nav a { color: #c9c6e8; text-decoration: none; font-weight: 650; } nav a:hover, nav a[aria-current="page"] { color: white; }
+    h1 { margin: .5rem 0 1rem; font-size: clamp(2.8rem, 8vw, 5rem); letter-spacing: -.06em; } p { color: #d8d5ee; font-size: 1.14rem; line-height: 1.75; }
+    .sparkle { color: #ffd675; font-size: 1.5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html" aria-current="page">About</a><a href="contact.html">Contact</a></nav>
+    <div class="sparkle">✦ ✦ ✦</div>
+    <h1>About this space</h1>
+    <p>This is a small corner of the web, created as a bright beginning for new ideas. Every great site starts somewhere—this one starts with curiosity.</p>
+  </main>
+</body>
+</html>
